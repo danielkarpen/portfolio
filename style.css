@@ -11,7 +11,7 @@ a {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(202, 202, 202);
 
   /* apply the following rules */
   font-family: "Metal Mania", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -64,6 +64,10 @@ span {
   position: relative;
 }
 
+ul {
+  padding-left: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -77,6 +81,11 @@ a {
   background: white;
   box-shadow: 10px 10px 10px rgb(95, 95, 95);
   padding: 1rem;
+}
+
+.inline-list {
+  display: inline-block;
+  margin: 0 0.75rem 0 0;
 }
 
 .vertical-rhythm {
