@@ -1,11 +1,17 @@
 /* select the body tag from the html */
+
+/* root is the top level selector in CSS */
 :root {
   --margin-bottom-rhythm: 1.75rem;
 }
 
+body,
+a {
+  color: rgb(102, 100, 100);
+}
+
 body {
   background-color: white;
-  color: rgb(102, 100, 100);
 
   /* apply the following rules */
   font-family: "Metal Mania", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -42,6 +48,10 @@ img {
   max-width: 100%;
 }
 
+a img {
+  max-width: 2rem;
+}
+
 svg {
   margin-right: 0.5rem;
 
@@ -58,7 +68,6 @@ span {
 }
 
 a {
-  color: rgb(102, 100, 100);
   text-decoration: none;
 }
 
