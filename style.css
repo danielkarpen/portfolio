@@ -19,10 +19,6 @@ body {
   padding: 1rem;
 }
 
-header div:first-child {
-  margin-bottom: var(--margin-bottom-rhythm);
-}
-
 h1 {
   font-size: 1.728em;
   font-weight: 600;
@@ -80,4 +76,8 @@ a {
   background: white;
   box-shadow: 10px 10px 10px rgb(95, 95, 95);
   padding: 1rem;
+}
+
+.vertical-rhythm {
+  margin-bottom: var(--margin-bottom-rhythm);
 }
