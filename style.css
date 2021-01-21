@@ -49,6 +49,14 @@ a img {
   max-width: 2rem;
 }
 
+figure {
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+}
+
 svg {
   margin-right: 0.5rem;
 
