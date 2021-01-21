@@ -22,207 +22,209 @@
   </head>
   <!-- all visible content for the site goes inside body -->
   <body>
-    <!-- Generally "h1" should be the same as your title for SEO -->
-    <header class="card rounded vertical-rhythm">
-      <!-- we can use divs as generic tags to group other tags this might be useful when applying CSS styles - especially HW - the div is a generic parent tag -->
-      <div class="vertical-rhythm">
-        <img
-          src="assets/images/me.jpg"
-          alt="Daniel Karpen Headshot"
-          class="rounded"
-        />
-        <h1>Daniel Karpen Resume</h1>
-        <h2>Fullstack JavaScript Developer</h2>
-      </div>
-      <div class="vertical-rhythm">
-        <div>
-          <a href="mailto:danielkarpen97@gmail.com">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
-              />
-              <path
-                d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
-              /></svg
-            ><span>danielkarpen97@gmail.com</span></a
-          >
-        </div>
-        <div>
-          <a href="tel:3147050664">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
-                clip-rule="evenodd"
-              /></svg
-            ><span>3147050664</span></a
-          >
-        </div>
-      </div>
-      <div>
-        <a
-          href="https://github.com/danielkarpen"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="assets\images\github.png" alt="GitHub logo" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/danielkarpen/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="assets\images\linkedin.png" alt="LinkedIn logo" />
-        </a>
-      </div>
-    </header>
-
-    <main>
-      <section class="card rounded vertical-rhythm">
-        <h2>Technical Skills</h2>
-        <ul>
-          <li class="inline-list">HTML/CSS</li>
-          <li class="inline-list">JavaScript</li>
-          <li class="inline-list">Git/GitHub</li>
-        </ul>
-      </section>
-      <section class="card rounded vertical-rhythm">
-        <h2>MERN Projects</h2>
-        <figure>
+    <div id="site-wrapper">
+      <!-- Generally "h1" should be the same as your title for SEO -->
+      <header class="card rounded vertical-rhythm">
+        <!-- we can use divs as generic tags to group other tags this might be useful when applying CSS styles - especially HW - the div is a generic parent tag -->
+        <div class="vertical-rhythm">
           <img
+            src="assets/images/me.jpg"
+            alt="Daniel Karpen Headshot"
             class="rounded"
-            src="https://assets.skyfilabs.com/images/blog/good-computer-science-projects-for-beginners.webp"
-            alt="Programming Projects"
           />
-          <figcaption>Coming Soon!</figcaption>
-        </figure>
-      </section>
-      <section class="rounded card vertical-rhythm">
-        <h2>Job Experience</h2>
-        <section>
-          <h3>
-            <strong>Principal Consultant (part-time)</strong> - Stage 3
-            Technologies
-          </h3>
-          <p>01.21 - Present</p>
-          <ul class="flex flex--column">
-            <li class="flex">
-              <!-- Need to keep some content here to have some width/height -->
-              <p>&nbsp;</p>
+          <h1>Daniel Karpen Resume</h1>
+          <h2>Fullstack JavaScript Developer</h2>
+        </div>
+        <div class="vertical-rhythm">
+          <div>
+            <a href="mailto:danielkarpen97@gmail.com">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                />
+                <path
+                  d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                /></svg
+              ><span>danielkarpen97@gmail.com</span></a
+            >
+          </div>
+          <div>
+            <a href="tel:3147050664">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
+                  clip-rule="evenodd"
+                /></svg
+              ><span>3147050664</span></a
+            >
+          </div>
+        </div>
+        <div>
+          <a
+            href="https://github.com/danielkarpen"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="assets\images\github.png" alt="GitHub logo" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/danielkarpen/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="assets\images\linkedin.png" alt="LinkedIn logo" />
+          </a>
+        </div>
+      </header>
 
-              <p>
-                Creation, maintenance, and delivery of JavaScript educational
-                content
-              </p>
-            </li>
-
-            <li class="flex">
-              <p>&nbsp;</p>
-
-              <p>
-                Maintain a depth of knowledge as a JavaScript Subject Matter
-                Expert (SME)
-              </p>
-            </li>
-
-            <li class="flex">
-              <p>&nbsp;</p>
-
-              <p>Assisting the sales team in a sales engineering capacity</p>
-            </li>
-
-            <li class="flex">
-              <p>&nbsp;</p>
-
-              <p>
-                Work with clients to develop JavaScript learning experiences
-                with measurable outcomes
-              </p>
-            </li>
-
-            <li class="flex">
-              <p>&nbsp;</p>
-
-              <p>
-                Assist in delivery of educational content to clients in an
-                instructor or instructor assistant role
-              </p>
-            </li>
-
-            <li class="flex">
-              <p>&nbsp;</p>
-
-              <p>Review course materials and recommend improvements</p>
-            </li>
+      <main>
+        <section class="card rounded vertical-rhythm">
+          <h2>Technical Skills</h2>
+          <ul>
+            <li class="inline-list">HTML/CSS</li>
+            <li class="inline-list">JavaScript</li>
+            <li class="inline-list">Git/GitHub</li>
           </ul>
         </section>
-      </section>
-      <section class="rounded card vertical-rhythm">
-        <h2>Education</h2>
-        <section>
-          <h3>
-            <strong>A.A.S (Web Development)</strong> - Southwestern Illinois
-            College
-          </h3>
-          <p>May 2012</p>
-          <ul class="flex flex--column">
-            <li class="flex">
-              <!-- Need to keep some content here to have some width/height -->
-              <p>&nbsp;</p>
-
-              <p>4.0 GPA</p>
-            </li>
-
-            <li class="flex">
-              <p>&nbsp;</p>
-
-              <p>
-                Additional certificates in:
-                <em>Graphic Design, Web Coding and Java</em>
-              </p>
-            </li>
-          </ul>
+        <section class="card rounded vertical-rhythm">
+          <h2>MERN Projects</h2>
+          <figure>
+            <img
+              class="rounded"
+              src="https://assets.skyfilabs.com/images/blog/good-computer-science-projects-for-beginners.webp"
+              alt="Programming Projects"
+            />
+            <figcaption>Coming Soon!</figcaption>
+          </figure>
         </section>
+        <section class="rounded card vertical-rhythm">
+          <h2>Job Experience</h2>
+          <section>
+            <h3>
+              <strong>Principal Consultant (part-time)</strong> - Stage 3
+              Technologies
+            </h3>
+            <p>01.21 - Present</p>
+            <ul class="flex flex--column">
+              <li class="flex">
+                <!-- Need to keep some content here to have some width/height -->
+                <p>&nbsp;</p>
 
-        <section>
-          <h3>
-            <strong>B.S. (Mechanical Engineeering)</strong> - Missouri S&T
-          </h3>
-          <p>Dec 2005</p>
-          <ul class="flex flex--column">
-            <li class="flex">
-              <!-- Need to keep some content here to have some width/height -->
-              <p>&nbsp;</p>
+                <p>
+                  Creation, maintenance, and delivery of JavaScript educational
+                  content
+                </p>
+              </li>
 
-              <p>Deere Co. Research Fellow Scholarship Recipient</p>
-            </li>
+              <li class="flex">
+                <p>&nbsp;</p>
 
-            <li class="flex">
-              <p>&nbsp;</p>
+                <p>
+                  Maintain a depth of knowledge as a JavaScript Subject Matter
+                  Expert (SME)
+                </p>
+              </li>
 
-              <p>Student Worker at campus library</p>
-            </li>
-          </ul>
+              <li class="flex">
+                <p>&nbsp;</p>
+
+                <p>Assisting the sales team in a sales engineering capacity</p>
+              </li>
+
+              <li class="flex">
+                <p>&nbsp;</p>
+
+                <p>
+                  Work with clients to develop JavaScript learning experiences
+                  with measurable outcomes
+                </p>
+              </li>
+
+              <li class="flex">
+                <p>&nbsp;</p>
+
+                <p>
+                  Assist in delivery of educational content to clients in an
+                  instructor or instructor assistant role
+                </p>
+              </li>
+
+              <li class="flex">
+                <p>&nbsp;</p>
+
+                <p>Review course materials and recommend improvements</p>
+              </li>
+            </ul>
+          </section>
         </section>
-      </section>
-    </main>
+        <section class="rounded card vertical-rhythm">
+          <h2>Education</h2>
+          <section>
+            <h3>
+              <strong>A.A.S (Web Development)</strong> - Southwestern Illinois
+              College
+            </h3>
+            <p>May 2012</p>
+            <ul class="flex flex--column">
+              <li class="flex">
+                <!-- Need to keep some content here to have some width/height -->
+                <p>&nbsp;</p>
 
-    <script src="./scripts.js" type="module"></script>
+                <p>4.0 GPA</p>
+              </li>
 
-    <footer class="flex flex--column">
-      <div class="hr"></div>
-      <p class="text-center">
-        Daniel Karpen&nbsp;&dash;
-        <a href="mailto:danielkarpen97@gmail.com">danielkarpen97@gmail.com</a>
-      </p>
-    </footer>
+              <li class="flex">
+                <p>&nbsp;</p>
+
+                <p>
+                  Additional certificates in:
+                  <em>Graphic Design, Web Coding and Java</em>
+                </p>
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>
+              <strong>B.S. (Mechanical Engineeering)</strong> - Missouri S&T
+            </h3>
+            <p>Dec 2005</p>
+            <ul class="flex flex--column">
+              <li class="flex">
+                <!-- Need to keep some content here to have some width/height -->
+                <p>&nbsp;</p>
+
+                <p>Deere Co. Research Fellow Scholarship Recipient</p>
+              </li>
+
+              <li class="flex">
+                <p>&nbsp;</p>
+
+                <p>Student Worker at campus library</p>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </main>
+
+      <script src="./scripts.js" type="module"></script>
+
+      <footer class="flex flex--column">
+        <div class="hr"></div>
+        <p class="text-center">
+          Daniel Karpen&nbsp;&dash;
+          <a href="mailto:danielkarpen97@gmail.com">danielkarpen97@gmail.com</a>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
