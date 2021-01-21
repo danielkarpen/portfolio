@@ -66,6 +66,9 @@ svg {
    */
   width: 1rem;
 }
+li p:first-child::before {
+  content: "☑";
+}
 
 span {
   bottom: 3.5px;
@@ -81,6 +84,13 @@ a {
 }
 
 /* Classes - reusable block of styles */
+.flex {
+  display: flex;
+}
+
+.flex--column {
+  flex-direction: column;
+}
 .rounded {
   border-radius: 0.75rem;
 }
